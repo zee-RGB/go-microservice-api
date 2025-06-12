@@ -1,3 +1,3 @@
 # Orders API
 
-A RESTful API for managing orders built with Go and Chi router.
+A RESTful API built with Go and Chi router.
