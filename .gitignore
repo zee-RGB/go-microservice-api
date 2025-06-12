@@ -1,0 +1,29 @@
+# macOS system files
+.DS_Store
+**/.DS_Store
+
+# Go specific
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output directories
+bin/
+dist/
+
+# Go workspace file
+go.work
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.local
