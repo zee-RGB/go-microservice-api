@@ -20,7 +20,7 @@ func (o *Order) GetByID(w http.ResponseWriter, r *http.Request) {
 	fmt.Println("Get an Order by ID")
 }
 
-func (o *Order) UpdatByID(w http.ResponseWriter, r *http.Request) {
+func (o *Order) UpdateByID(w http.ResponseWriter, r *http.Request) {
 	fmt.Println("Update an Order by ID")
 }
 

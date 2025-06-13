@@ -23,11 +23,11 @@ func loadRoutes() *chi.Mux {
 }
 
 func loadOrderRoutes(router chi.Router) {
-	order.Handler := &handler.Order{}
+	orderHandler := &handler.Order{}
 
-	router.Post("/", order.Create)
-	router.Get("/", order.List)
-	router.Get("/{id}", order.GetByID)
-	router.Put("/{id}", order.UpdateByID)
-	router.Delete("/{id}", order.DeleteByID)
+	router.Post("/", orderHandler.Create)
+	router.Get("/", orderHandler.List)
+	router.Get("/{id}", orderHandler.GetByID)
+	router.Put("/{id}", orderHandler.UpdateByID)
+	router.Delete("/{id}", orderHandler.DeleteByID)
 }
