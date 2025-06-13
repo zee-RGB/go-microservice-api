@@ -1,4 +1,4 @@
-module microservice-api
+module github.com/zee-RGB/orders-api
 
 go 1.24.4
 
