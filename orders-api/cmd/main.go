@@ -20,5 +20,4 @@ func main() {
 	if err != nil {
 		fmt.Printf("Error starting application: %v\n", err)
 	}
-
 }

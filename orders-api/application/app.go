@@ -16,11 +16,12 @@ type App struct {
 
 func New() *App {
 	app := &App{
-		router: loadRoutes(),
 		rdb: redis.NewClient(&redis.Options{
 			Addr: "localhost:6379",
 		}),
 	}
+	app.loadRoutes()
+
 	return app
 }
 
